@@ -1,0 +1,13 @@
+# Please insure that your custom_dataset are put in same parent dir with YOLOv6_DIR
+train: images/train # train images
+val: images/val # val images
+# test: /media/nsl38/hdd1/mredul/object_detection/YOLOv6/set_3/val # test images (optional)
+
+
+# anno_path: /media/nsl38/hdd1/mredul/object_detection/YOLOv6/set_3/annotations/instances_val.json
+
+# whether it is coco dataset, only coco dataset should be set to True.
+is_coco: False
+# Classes
+nc: 9  # number of classes
+names: ['D00', 'D01', 'D10', 'D11', 'D20', 'D40', 'D43', 'D44', 'D50']  # class names
